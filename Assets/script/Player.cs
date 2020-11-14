@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
 {
     public GameObject end;
     public Text ciontx;
-    public int cion;
+    public int score;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
         {
             Destroy(collision.gameObject);
 
-            cion++;
-            ciontx.text = cion + "/10";
+            score++;
+            ciontx.text = score + "/10";
         }
 
     }
