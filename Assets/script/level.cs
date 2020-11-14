@@ -9,7 +9,7 @@ public class level : MonoBehaviour
     }
     public void menu()
     {
-        SceneManager.LoadScene("2DG_menu");
+        SceneManager.LoadScene("2d_menu");
     }
     public void Quit()
     {
