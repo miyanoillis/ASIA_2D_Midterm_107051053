@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
 
             cion++;
-            ciontx.text = cion + "/999";
+            ciontx.text = cion + "/10";
         }
 
     }

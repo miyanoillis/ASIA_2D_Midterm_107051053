@@ -6,7 +6,7 @@ public class Menu : MonoBehaviour
     public void start()
     {
         print(0);
-        SceneManager.LoadScene("sd_1");
+        SceneManager.LoadScene("2d_1");
     }
     public void quit()
     {

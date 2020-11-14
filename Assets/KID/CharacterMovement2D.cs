@@ -13,11 +13,11 @@ namespace KID
     [Header("跳躍高度"), Range(0f, 2000f)]
     public float jump = 500f;
     [Header("動畫參數：跑步")]
-    public string parRun = "跑步開關";
+    public string parRun = "walk";
     [Header("動畫參數：跳躍")]
-    public string parJump = "跳躍觸發";
+    public string parJump = "jump";
     [Header("動畫參數：死亡")]
-    public string parDead = "死亡開關";
+    public string parDead = "die";
 
     private Rigidbody2D rig;
     private Animator ani;
