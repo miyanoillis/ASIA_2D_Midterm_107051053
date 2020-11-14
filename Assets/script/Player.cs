@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
             end.SetActive(true);
             FindObjectOfType<KID.CharacterMovement2D>().enabled = false;
         }
-        if(collision.tag == "cherry")
+        if(collision.tag == "star")
         {
             Destroy(collision.gameObject);
 
